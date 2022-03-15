@@ -21,5 +21,3 @@ $ ls
 $ cd Crack-Prem
 
 $ python Prem.py
-
-Jalan
